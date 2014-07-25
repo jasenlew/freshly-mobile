@@ -70,7 +70,7 @@ angular.module('freshly.servicesActivities', [])
         q.reject(err);
       }, options);
 
-      console.log('sent to the server!!!!');
+      console.log('Sent image to server.');
 
       return q.promise;
     }
